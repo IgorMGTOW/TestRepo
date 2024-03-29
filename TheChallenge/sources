@@ -1,0 +1,11 @@
+TARGETNAME=thechallenge
+TARGETPATH=obj
+TARGETTYPE=PROGRAM
+
+MSC_WARNING_LEVEL=/W3
+
+SOURCES=\
+    ..\thechallenge.c
+
+UMTYPE=console
+USE_MSVCRT=1

@@ -1,0 +1,60 @@
+BUILD: Examining d:\testproject\thechallenge directory for files to compile.
+Compiling d:\testproject\thechallenge directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+1>BUILDMSG: Processing d:\testproject\thechallenge
+Elapsed time [0:00:00.000] ********************
+1>cl -nologo -Ii386\ -I. -Iobj\i386 -IF:\srv03rtm\public\oak\inc -IF:\srv03rtm\public\sdk\inc -IF:\srv03rtm\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -D__BUILDDATE__=240123-0936 -D__BUILDMACHINE__=opennt_ver_01_dev_reset -DFPO=1  -DNDEBUG -D_DLL=1 -D_MT=1      /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /Gz  /QIfdiv- /QIf /G6 /GX-  /GR- /GF  -Z7 /Oxs  /Oy -Z7   -FIF:\srv03rtm\public\sdk\inc\warning.h   .\thechallenge.c 
+1>thechallenge.c
+1>
+1>Stop.
+Linking d:\testproject\thechallenge directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Elapsed time [0:00:00.282] ********************
+1>	link -out:obj\i386\thechallenge.exe -machine:ix86 @C:\Users\IGOR_M~1\AppData\Local\Temp\nmC4B6.tmp
+1>Microsoft (R) Incremental Linker Version 7.10.2179
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>-MERGE:_PAGE=PAGE 
+1>-MERGE:_TEXT=.text 
+1>-SECTION:INIT,d 
+1>-OPT:REF 
+1>-OPT:ICF 
+1>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+1>-INCREMENTAL:NO 
+1>-FULLBUILD 
+1>/release 
+1>-NODEFAULTLIB 
+1>/WX 
+1>-debug:FULL 
+1>-debugtype:cv 
+1>-version:5.2 
+1>-osversion:5.2 
+1>-debug:full 
+1>-debugtype:cv,fixup 
+1>/opt:nowin98 
+1>-PDBPATH:NONE 
+1>-merge:.rdata=.text 
+1>-STACK:0x40000,0x2000 
+1>/tsaware 
+1>-subsystem:console,4.00 
+1>-base:@F:\srv03rtm\Tools\coffbase.txt,usermode 
+1>-entry:mainCRTStartup 
+1>obj\i386\thechallenge.obj 
+1>F:\srv03rtm\public\sdk\lib\i386\msvcrt.lib 
+1>F:\srv03rtm\public\sdk\lib\i386\advapi32.lib 
+1>F:\srv03rtm\public\sdk\lib\i386\kernel32.lib 
+1>/tmp 
+1>	compact /c /q obj\i386\thechallenge.pdb
+1>
+1> Compressing files in d:\TestProject\TheChallenge\obj\i386\
+1>
+1>
+1>1 files within 1 directories were compressed.
+1>99,328 total bytes of data are stored in 24,576 bytes.
+1>The compression ratio is 4.0 to 1.
+1>	echo.
+1>
+1>	( echo. )
+1> 
+1>
+1>Stop.
